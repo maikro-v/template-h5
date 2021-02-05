@@ -5,4 +5,4 @@ h5模板
 - animate.css动画库
 - lodash工具库
 - vant的ui库
-- axios网络请求
+- api统一管理
