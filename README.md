@@ -1,29 +1,8 @@
-# zsh-art-h5
+h5模板
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run dev
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+集成了一些常用的工具库
+- rem 以宽750px的设计图自动转换为rem单位
+- animate.css动画库
+- lodash工具库
+- vant的ui库
+- axios网络请求
