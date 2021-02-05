@@ -1,0 +1,95 @@
+/* 文字溢出处理 */
+.o-line-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.o-line-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.o-line-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.o-line-4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+/* 字体对其 */
+.o-text-left {
+  text-align: left;
+}
+.o-text-center {
+  text-align: center;
+}
+.o-text-right {
+  text-align: right;
+}
+
+/* flex */
+.o-inline-flex {
+  display: inline-flex;
+}
+.o-flex {
+  display: flex;
+}
+.o-flex-column,
+.o-inline-flex-column {
+  flex-direction: column;
+}
+.o-flex-wrap,
+.o-inline-flex-wrap {
+  flex-wrap: wrap;
+}
+.o-align-start {
+  align-items: flex-start;
+}
+.o-align-center {
+  align-items: center;
+}
+.o-align-end {
+  align-items: flex-end;
+}
+.o-justify-start {
+  justify-content: flex-start;
+}
+.o-justify-center {
+  justify-content: center;
+}
+.o-justify-end {
+  justify-content: flex-end;
+}
+.o-justify-between {
+  justify-content: space-between;
+}
+.o-justify-around {
+  justify-content: space-around;
+}
+.o-flex-col {
+  flex: 1;
+}
+
+/* 浮动 */
+.o-clear::after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+.o-lf {
+  float: left;
+}
+.o-rf {
+  float: right;
+}
