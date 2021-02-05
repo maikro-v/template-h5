@@ -7,4 +7,3 @@
 <style lang="scss">
   @import "app";
 </style>
-
